@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 108%;
+  }
+h1{
+    font-size: 350%;
+    background-color: #fdffb6;
+    color: #ffc6ff;
+    text-align: center;
+    text-shadow: 2px 1px 0 #bdb2ff, 
+                2px 2px 0 #a8dadc,
+                2px 3px 0 #a0c4ff,
+                2px 4px 0 #219ebc;
+    
+    margin: 0;      
+}
+dt{
+    position: sticky;
+    top: 4px;
+    background-color: #caffbf ;
+    padding-left: 20px;
+    font-size: 40px;
+}
+dd::before{
+    content: "\260E";
+}
+dd {
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+  
+  dd {
+    border-top: 1px solid #CCC;
+  }
+  a{
+      color: #219ebc;
+      text-underline-offset: 0;
+  }
